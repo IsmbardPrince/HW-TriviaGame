@@ -1,0 +1,110 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#panelBackground {
+	width: 100%;
+	height: 100%;
+	background: url("../images/slowearth.se_.jpg") center/cover no-repeat fixed;
+}
+
+#gameTitle {
+	width: 60%;
+	margin: auto;
+	font-family: "Combo", "sans serif";
+	font-size: 90px;
+}
+
+#remTime {
+	width: 40%;
+	margin: auto;
+	margin-bottom: 10px;
+	font-family: "Raleway", "sans serif";
+	font-size: 32px;
+	background: transparent;
+}
+
+#resultAnswer {
+	width: 40%;
+	margin: auto;
+	margin-bottom: 10px;
+	font-family: "Raleway", "sans serif";
+	font-size: 32px;
+	background: transparent;
+}
+
+#paneQuestion {
+	height: 65%;
+	width: 60%;
+	padding: 30px;
+	margin: auto;
+	font-family: "Raleway", "sans serif";
+	font-size: 24px;
+	background-color: khaki;
+}
+
+#paneAnswer {
+	height: 65%;
+	width: 60%;
+	padding: 30px;
+	margin: auto;
+	font-family: "Raleway", "sans serif";
+	font-size: 24px;
+	background-color: khaki;
+}
+
+#paneGameOver {
+	height: 40%;
+	width: 50%;
+	padding: 30px;
+	position: fixed;
+	top: 20%;
+	left: 25%;
+	background-color: khaki;
+	display: none;
+	z-index: 100;
+}
+
+#txtGameOver {
+	width: 40%;
+	margin: auto;
+	font-family: "Combo", "sans serif";
+	font-size: 72px;
+}
+
+#txtQuizResults {
+	font-family: "Raleway", "sans serif";
+	font-size: 24px;
+}
+
+#mcTextAnswer {
+	padding: 20px;
+}
+
+.btnRadio {
+	margin-left: 10%;
+}
+
+#btnStartReset {
+	height: 30px;
+	width: 5%;
+	left: 45%;
+	padding: auto;
+	position: fixed;
+	bottom: 3%;
+	font-family: "Raleway", "sans serif";
+	font-size: 18px;
+	display: none;
+}
+
+#btnConfirmAnswer {
+	height: 30px;
+	left: 40%;
+	padding: auto;
+	position: fixed;
+	bottom: 3%;
+	font-family: "Raleway", "sans serif";
+	font-size: 18px;
+	display: none;
+}
